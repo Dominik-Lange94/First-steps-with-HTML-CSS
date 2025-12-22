@@ -8,15 +8,98 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+
       rel="stylesheet" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header>
-      <nav></nav>
+    <header class="site-header">
+      <div class="container header-bar">
+        <a href="#" class="brand">
+          <img
+            src="./img/epic-logo.svg"
+            alt="Epic Games"
+            class="brand-logo brand-logo--epic"
+          />
+          <img
+            src="./img/unreal-logo.svg"
+            alt="Unreal Engine"
+            class="brand-logo brand-logo--unreal"
+          />
+        </a>
+
+        <!-- Navigation -->
+        <input type="checkbox" id="nav-toggle" hidden />
+
+        <label for="nav-toggle" class="burger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </label>
+
+        <nav class="main-nav">
+          <div class="nav-item has-sub">
+            <a href="#">
+              Overview
+              <span class="nav-arrow"></span>
+            </a>
+            <div class="submenu">
+              <a href="#">Unreal Engine</a>
+            </div>
+          </div>
+
+          <div class="nav-item has-sub">
+            <a href="#">
+              Uses
+              <span class="nav-arrow"></span>
+            </a>
+            <div class="submenu">
+              <a href="#">Unreal Engine</a>
+            </div>
+          </div>
+
+          <a href="#" class="nav-item">News</a>
+
+          <a href="#" class="nav-item">Forums</a>
+
+          <a href="#" class="nav-item">Documentation</a>
+
+          <div class="nav-item has-sub">
+            <a href="#">
+              Learning
+              <span class="nav-arrow"></span>
+            </a>
+            <div class="submenu">
+              <a href="#">Unreal Engine</a>
+            </div>
+          </div>
+
+          <div class="nav-item has-sub">
+            <a href="#">
+              Connect
+              <span class="nav-arrow"></span>
+            </a>
+            <div class="submenu">
+              <a href="#">Unreal Engine</a>
+            </div>
+          </div>
+
+          <a href="#" class="nav-item">Fab</a>
+        </nav>
+
+        <div class="header-actions">
+          <input type="search" class="search-input" placeholder="Search" />
+          <button class="icon-button" aria-label="Language">
+            <img src="./img/language.svg" alt="" />
+          </button>
+          <a href="#" class="btn-grey">Sign in</a>
+          <a href="#" class="btn-blue">Download</a>
+        </div>
+      </div>
     </header>
 
     <main>
@@ -25,7 +108,8 @@
           <img
             id="hero-unreal-logo"
             src="./img/unreal-logo.svg"
-            alt="Unreal Logo" />
+            alt="Unreal Logo"
+          />
           <h1>We make the engine.</h1>
           <h1>You make it Unreal.</h1>
           <p id="hero-text">
@@ -53,7 +137,8 @@
           <article class="news-card">
             <img
               src="./img/ue-logo-with-background.jpg"
-              alt="Unreal Engine scene" />
+              alt="Unreal Engine scene"
+            />
 
             <div class="news-content">
               <h3>Unreal Engine 5.7 is now available</h3>
