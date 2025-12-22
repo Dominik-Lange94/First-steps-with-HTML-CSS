@@ -33,6 +33,7 @@ html {
 }
 
 main {
+  gap: 100px;
   width: 1044px;
   margin: auto;
   display: flex;
