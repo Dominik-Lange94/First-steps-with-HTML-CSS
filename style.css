@@ -33,12 +33,71 @@ html {
 }
 
 main {
+  gap: 100px;
   width: 1044px;
   margin: auto;
   display: flex;
   flex-direction: column;
 }
 
+.headline-news {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+  display: flex;
+}
+.news-section {
+  background: #0e0f14;
+  padding: 40px;
+  border-radius: 32px;
+  color: white;
+}
+
+.news-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+}
+.news-header button {
+  justify-content: space-between;
+  align-self: flex-end;
+}
+.news-grid {
+  display: flex;
+  gap: 24px;
+}
+.news-text {
+  padding: 10px;
+}
+.news-card {
+  flex: 1;
+  display: flex;
+  gap: 20px;
+  background: #1a1b20;
+  border-radius: 24px;
+  padding: 20px;
+}
+.news-section img {
+  object-fit: cover;
+  width: 224px;
+  height: 156px;
+  border-radius: 30px;
+}
+.news-content {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.badge {
+  margin-top: auto;
+  background: #2a2b30;
+  padding: 6px 12px;
+  border-radius: 999px;
+  font-size: 12px;
+  width: fit-content;
+}
 .hero-section {
   position: relative;
   display: flex;
