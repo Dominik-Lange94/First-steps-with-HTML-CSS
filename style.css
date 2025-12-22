@@ -8,3 +8,9 @@
 
 .btn-white {
 }
+
+main {
+  width: 1044px;
+  display: flex;
+  flex-direction: column;
+}
