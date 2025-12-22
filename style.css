@@ -5,6 +5,18 @@
   box-sizing: border-box;
 }
 .btn-blue {
+  text-decoration: none;
+  padding: 10px 20px;
+  background-color: #72d3ff;
+  border-radius: 8px;
+}
+
+.btn-ghost {
+  text-decoration: none;
+  padding: 10px 20px;
+  background-color: transparent;
+  border-radius: 8px;
+  border: 0.5px solid #fff;
 }
 
 .btn-white {
@@ -12,6 +24,28 @@
 
 main {
   width: 1044px;
+  margin: auto;
   display: flex;
   flex-direction: column;
+}
+
+.hero-section {
+}
+
+#hero-left {
+  width: 577px;
+  height: 331px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#hero-unreal-logo {
+  width: 204px;
+  height: 30px;
+}
+
+h1 {
+  font-size: 48px;
+  line-height: 0px;
 }
