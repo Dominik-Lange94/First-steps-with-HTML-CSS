@@ -16,6 +16,10 @@ html {
   border-radius: 8px;
 }
 
+.btn-blue:hover {
+  background-color: #a5e2fe;
+}
+
 .btn-ghost {
   text-decoration: none;
   padding: 10px 20px;
