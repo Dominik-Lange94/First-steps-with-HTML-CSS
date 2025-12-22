@@ -18,3 +18,25 @@ main {
   display: flex;
   flex-direction: column;
 }
+
+.news-section {
+  padding: 10px;
+  background-color: black;
+  color: white;
+  border-radius: 30px;
+}
+.left-news {
+  display: flex;
+  background-color: grey;
+  padding: 10px;
+  border-radius: 30px;
+  flex-direction: column;
+  max-width: 50%;
+  opacity: 50%;
+}
+.news-section img {
+  object-fit: cover;
+  width: 224px;
+  height: 156px;
+  border-radius: 30px;
+}
