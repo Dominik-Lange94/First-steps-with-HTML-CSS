@@ -85,3 +85,10 @@ h1 {
 #hero-img {
   border-radius: 80px;
 }
+
+footer {
+  width: 1584px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
