@@ -99,6 +99,25 @@ footer {
   gap: 47px;
 }
 
+#footer-top {
+  display: flex;
+  justify-content: space-between;
+}
+
+#footer-social {
+  display: flex;
+  gap: 20px;
+}
+
+#footer-social i {
+  color: #676767;
+  font-size: 30px;
+}
+
+#footer-social i:hover {
+  color: white;
+}
+
 .footer-border {
   width: 100%;
   border-bottom: 1px solid #67676d;
