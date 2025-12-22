@@ -35,7 +35,7 @@ html {
 }
 
 main {
-  gap: 100px;
+  gap: 200px;
   width: 1044px;
   margin: auto;
   display: flex;
