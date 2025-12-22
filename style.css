@@ -28,7 +28,9 @@ html {
   border-radius: 8px;
   border: 0.5px solid #fff;
 }
-
+.btn-ghost:hover {
+  background-color: rgba(245, 245, 245, 0.144);
+}
 .btn-white {
 }
 
