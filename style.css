@@ -59,7 +59,7 @@ html {
 
 main {
   gap: 200px;
-  width: 1044px;
+  width: 1440px;
   margin: auto;
   display: flex;
   flex-direction: column;
@@ -371,7 +371,6 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding: 40px;
   border-radius: 32px;
   color: white;
 }
@@ -469,11 +468,12 @@ main {
 }
 
 .hero-section {
-  margin-top: 100px;
+  width: 1440px;
+  margin-top: 200px;
   position: relative;
   display: flex;
   align-items: center;
-  height: 500px;
+  height: 700px;
 }
 
 #hero-left {
@@ -506,7 +506,6 @@ h1 {
 
 #hero-right {
   z-index: -1;
-  width: 780px;
   position: absolute;
   top: 0px;
   right: 0px;
@@ -514,6 +513,7 @@ h1 {
 
 #hero-img {
   border-radius: 80px;
+  width: 1100px;
 }
 
 footer {
