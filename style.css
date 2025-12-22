@@ -28,20 +28,127 @@ html {
   border-radius: 8px;
   border: 0.5px solid #fff;
 }
-
 .btn-ghost:hover {
-  background-color: #676767;
+  background-color: rgba(245, 245, 245, 0.144);
 }
-
 .btn-white {
 }
 
 main {
+  gap: 100px;
   width: 1044px;
   margin: auto;
   display: flex;
   flex-direction: column;
   gap: 100px;
+}
+
+.headline-news {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+  display: flex;
+}
+.news-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 40px;
+  border-radius: 32px;
+  color: white;
+}
+
+.news-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+}
+.news-header button {
+  justify-content: space-between;
+  align-self: flex-end;
+}
+.news-grid {
+  display: flex;
+  gap: 24px;
+}
+.news-text {
+  padding: 10px;
+}
+.news-card {
+  flex: 1;
+  display: flex;
+  gap: 20px;
+  background: #1a1b20;
+  border-radius: 24px;
+  padding: 20px;
+}
+.news-section img {
+  object-fit: cover;
+  width: 224px;
+  height: 156px;
+  border-radius: 30px;
+}
+.news-content {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.badge {
+  margin-top: auto;
+  background: #2a2b30;
+  padding: 6px 12px;
+  border-radius: 999px;
+  font-size: 12px;
+  width: fit-content;
+}
+.feature-section {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  padding: 80px 0;
+  color: white;
+}
+.feature-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 24px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 60px;
+}
+.feature-content {
+  flex: 1;
+}
+.feature-image {
+  padding-top: 32px;
+  flex: 1;
+  display: flex;
+  justify-content: end;
+}
+.feature-section img {
+  object-fit: cover;
+  width: 500px;
+  height: 282px;
+  border-radius: 30px;
+}
+.section-label {
+  font-size: 14px;
+  margin-bottom: 16px;
+  font-weight: 600;
+}
+
+.feature-content h2 {
+  font-size: 40px;
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+
+.feature-content p {
+  line-height: 1.6;
+  margin-bottom: 32px;
 }
 
 .hero-section {
