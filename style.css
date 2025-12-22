@@ -6,6 +6,8 @@
 }
 html {
   font-family: Inter;
+  color: white;
+  background-color: #101014;
 }
 .btn-blue {
   text-decoration: none;
@@ -17,6 +19,7 @@ html {
 .btn-ghost {
   text-decoration: none;
   padding: 10px 20px;
+  color: white;
   background-color: transparent;
   border-radius: 8px;
   border: 0.5px solid #fff;
@@ -33,11 +36,15 @@ main {
 }
 
 .hero-section {
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: 500px;
 }
 
 #hero-left {
   width: 577px;
-  height: 331px;
+  height: 360px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -50,5 +57,27 @@ main {
 
 h1 {
   font-size: 48px;
-  line-height: 0px;
+  line-height: 15px;
+}
+
+#hero-text {
+  font-size: 16px;
+  line-height: 27px;
+}
+
+#hero-buttons {
+  display: flex;
+  gap: 20px;
+}
+
+#hero-right {
+  z-index: -1;
+  width: 780px;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+
+#hero-img {
+  border-radius: 80px;
 }
