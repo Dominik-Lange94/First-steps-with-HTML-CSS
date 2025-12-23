@@ -615,8 +615,8 @@ h1 {
 .download-section::after {
   content: "";
   position: absolute;
-  width: 420px;
-  height: 420px;
+  width: 320px;
+  height: 320px;
   border-radius: 50%;
   filter: blur(140px);
   opacity: 0.35;
@@ -630,7 +630,7 @@ h1 {
     rgba(114, 211, 255, 0)
   );
   top: -120px;
-  left: -120px;
+  left: 120px;
   animation: glowFloat1 14s ease-in-out infinite;
 }
 
@@ -640,8 +640,8 @@ h1 {
     rgba(210, 140, 255, 0.8),
     rgba(210, 140, 255, 0)
   );
-  bottom: -120px;
-  right: -120px;
+  top: 120px;
+  right: 120px;
   animation: glowFloat2 18s ease-in-out infinite;
 }
 
