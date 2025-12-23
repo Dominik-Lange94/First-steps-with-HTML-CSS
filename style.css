@@ -220,7 +220,7 @@ main {
   color: var(--color-text);
   width: 140px;
 
-  background-image: url("./img/search.svg");
+  background-image: url('./img/search.svg');
   background-repeat: no-repeat;
   background-position: 10px center;
   background-size: 14px;
@@ -511,34 +511,32 @@ main {
 
 .hero-section {
   width: 1440px;
-  margin-top: 200px;
+  margin: 200px 0px 50px 0;
   position: relative;
   display: flex;
   align-items: center;
-  height: 700px;
+  height: 600px;
 }
 
 #hero-left {
   width: 577px;
-  height: 360px;
+  height: 400px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 
 #hero-unreal-logo {
-  width: 204px;
-  height: 30px;
+  width: 270px;
 }
 
 h1 {
   font-size: 48px;
-  line-height: 15px;
 }
 
 #hero-text {
-  font-size: 16px;
-  line-height: 27px;
+  font-size: 18px;
+  line-height: 35px;
 }
 
 #hero-buttons {
