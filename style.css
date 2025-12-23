@@ -735,17 +735,17 @@ h1 {
 }
 
 .step-1 {
-  background: #72d3ff;
+  background: linear-gradient(45deg, #50befe 0%, #c2b2ec 100%);
   color: black;
 }
 
 .step-2 {
-  background: #9c8cff;
+  background: linear-gradient(45deg, #9591f8 0%, #d7ace5 100%);
   color: black;
 }
 
 .step-3 {
-  background: #d28cff;
+  background: linear-gradient(45deg, #c677e5 0%, #f4a9bd 100%);
   color: black;
 }
 
@@ -799,6 +799,7 @@ h1 {
   padding: 8px 16px;
   font-size: 14px;
   z-index: 5;
+  width: fit-content;
 }
 
 /* ===== FOOTER ===== */
