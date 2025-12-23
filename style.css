@@ -810,6 +810,23 @@ h1 {
   width: fit-content;
 }
 
+@media (max-width: 768px) {
+  .download-steps {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .download-card {
+    padding: 22px;
+  }
+
+  .download-uefn {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+  }
+}
+
 /* ===== FOOTER ===== */
 
 footer {
@@ -890,4 +907,12 @@ footer p {
 
 #footer-bottom a:hover {
   color: white;
+}
+
+@media (max-width: 768px) {
+  #footer-links-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 32px 24px;
+  }
 }
