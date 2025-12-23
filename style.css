@@ -388,7 +388,7 @@ main {
   }
   .news-section {
     justify-content: initial;
-    max-width: 60%;
+    max-width: 35%;
   }
   .news-header button {
     justify-content: flex-end;
@@ -471,13 +471,19 @@ main {
 }
 
 .feature-inner {
-  max-width: 1200px;
   margin: 0 auto;
   padding: 0 24px;
   display: flex;
   flex-direction: row;
-  align-items: center;
-  gap: 60px;
+  justify-content: space-evenly;
+}
+@media (max-width: 768px) {
+  .feature-inner {
+    flex-direction: column;
+    align-items: start;
+    max-width: 35%;
+    margin: initial;
+  }
 }
 .feature-content {
   flex: 1;
